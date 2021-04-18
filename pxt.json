@@ -1,5 +1,6 @@
 {
     "name": "control de luces",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
