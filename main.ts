@@ -1,21 +1,7 @@
 basic.forever(function () {
-    if (input.lightLevel() >= 20) {
-        basic.showLeds(`
-            # . # . #
-            . # # # .
-            # # # # #
-            . # # # .
-            # . # . #
-            `)
+    if (input.lightLevel() >= 10) {
         pins.digitalWritePin(DigitalPin.P0, 0)
     } else {
-        basic.showLeds(`
-            . . # # .
-            . # # . .
-            . # # . .
-            . # # . .
-            . . # # .
-            `)
         pins.digitalWritePin(DigitalPin.P0, 1)
     }
 })
