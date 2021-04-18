@@ -1,5 +1,5 @@
 basic.forever(function () {
-    if (input.lightLevel() >= 50) {
+    if (input.lightLevel() >= 30) {
         basic.showLeds(`
             # . # . #
             . # # # .
